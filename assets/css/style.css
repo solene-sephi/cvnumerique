@@ -1,0 +1,191 @@
+/* REGLES GENERALES */
+
+body {
+  background: #0A100D;
+
+}
+
+#mainContainer {
+    overflow-x: hidden;
+}
+
+body {
+  position: relative; /* necessaire pour le fonctionnement de scrollspy */
+}
+
+.lineHeightPlus {
+  letter-spacing: 0.2em
+}
+
+.btn {
+  background-color: #902923;
+  color: #fff;
+}
+
+.txtWhite {
+  color:#fff
+}
+
+
+
+
+
+
+
+
+
+
+/*MENU DE NAVIGATION */
+
+.navbar {
+  background-color: #0A100D;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #902923;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  color: #902923;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* PAGE D'ACCUEIL */
+#home {
+  background: #212322;
+}
+
+#blocTitle{
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*PAGE COMPETENCES */
+
+  /* pris et personnlisé de https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
+  .timelineOuter {
+    border-left: 3px solid #D6D5C9;
+  }
+  
+  .timelineCard {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    border: 2px solid #D6D5C9;
+    border-radius: 8px;
+  }
+  
+  .timelineInfo {
+    display: flex;
+    flex-direction: column;
+    }
+
+
+  .timelineDate {
+    color: #902923;
+    position: relative;
+  }
+  
+  .timelinePlace {
+    color: #902923;
+    position: relative;
+  }
+
+  
+  .timelineTitle {
+    color: #902923;
+    position: relative;
+  }
+  
+  /* timeline dot  */
+  .timelineDate::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -39px;
+    border: 3px solid #902923;
+  }
+
+
+
+
+
+
+
+
+
+/* PAGE DERNIERS PROJETS */
+#portfolio {
+  background: #212322;
+}
+
+.badge {
+  background-color: #6D6875;
+}
+
+
+
+
+
+
+
+
+
+
+/* PAGE DE CONTACT */
+
+#message {
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+/* pris de https://csshint.com/bootstrap-horizontal-line-examples/ */
+.hr-theme-slash-2 {
+    display: flex;
+  }
+  .hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 3px solid #D6D5C9;
+  }
+  .hr-icon {
+    position: relative;
+    top: 3px;
+    color: #D6D5C9;
+  }
+

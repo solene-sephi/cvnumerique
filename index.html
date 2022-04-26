@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b4cd707226.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CV Solène Brunel</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="60" tabindex="0">
+
+    <!-- MENU DE NAVIGATION -->
+
+    <nav class="navbar nav nav-fill sticky-top txtWhite px-3 border-bottom border-light border-2">
+        <!-- bg-dark navbar-dark -->
+        <a class="nav-link active" href="#home">Accueil</a>
+        <a class="nav-link" href="#competences">Compétences</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <!-- CONTENU PRINCIPAL -->
+
+    <div class="container-fluid g-0" id="mainContainer">
+
+        <!-- PAGE D'ACCUEIL -->
+
+        <div id="home" class="container-fluid vh-100 d-flex">
+            <div class="row">
+
+                <div class="col-12 col-md-4 d-none d-md-block">
+
+                </div>
+
+                <div class=" col-12 col-md-8 p-4 p-md-5 align-self-center">
+
+                    <div id="blocTitle" class="py-3 py-md-4 border border-dark text-center">
+                        <div class="px-3 text-uppercase">
+                            <h1 class="lineHeightPlus">Solène Brunel</h1>
+                            <h2>Développeur web junior</h2>
+                            <p class="mb-0"> 27 ans</p>
+                            <p class="mb-0">Compiègne (60)</p>
+                            <p class="mb-0">Permis B - Véhiculée</p>
+                        </div>
+                    </div>
+                    
+                    <p class="m-3 m-md-4 text-center txtWhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE COMPETENCES -->
+
+        <div id="competences" class="container-fluid py-4">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 pt-2 d-flex align-items-center justify-content-left">
+                        <!-- pt-2 permet de corriger la différence de padding entre le haut et le bas. Raison inconnue, seule solution trouvée -->
+                        <h3 class="px-5 py-3 text-uppercase lineHeightPlus border border-start-0 border-dark bg-light">
+                            Mes <span style="background-color: #902923;">compétences</span> 
+                        </h3>
+                    </div>
+
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <a class="btn" href="#" role="button">Télécharger le CV en PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-9 mx-auto pt-4">
+                <div class="accordion accordion-flush" id="accordionPanelsStayOpen">
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button text-uppercase lineHeightPlus" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                <p class="mb-0"><i class="fa-solid fa-code fa-1x"></i><span class="p-2">Languages web &
+                                        Atouts</span></p>
+                            </button>
+                        </h4>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne" data-bs-parent="#accordionPanelsStayOpen">
+                            <div class="accordion-body">
+
+                                <div class="container-fluid">
+                                    <div class="row text-center">
+
+                                        <div class="col-12 col-md-6">
+                                            <h5>Languages web</h5>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <p class="mb-0">HTML 5</p>
+                                                        <i class="fab fa-html5 fa-3x"></i>
+                                                    </div>
+                                                    <div class="col">
+                                                        <p class="mb-0">CSS</p>
+                                                        <i class="fab fa-css3-alt fa-3x"></i>
+                                                    </div>
+                                                    <div class="col">
+                                                        <p class="mb-0">Bootstrap</p>
+                                                        <i class="fa-brands fa-bootstrap fa-3x"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <h5>Atouts</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed text-uppercase lineHeightPlus" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                <p class="mb-0"><i class="fa-solid fa-briefcase fa-1x"></i><span
+                                        class="p-2">Expériences</span></p>
+                            </button>
+                        </h4>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo" data-bs-parent="#accordionPanelsStayOpen">
+                            <div class="accordion-body">
+
+                                <div class="timeline py-2 px-auto">
+                                    <div class="timelineOuter">
+                                        <div class="timelineCard">
+                                            <div class="timelineInfo">
+                                                <h6 class="timelineDate">Novembre 2019 – Juillet 2021 (1 an 8 mois)</h6>
+                                                <h5 class="timelineTitle">Employée service client</h5>
+                                                <h6 class="timelinePlace">LIBRAIRIE CLC | Montélimar, Drôme</h6>
+                                                <ul>
+                                                    <li>Prise des commandes et conseils</li>
+                                                    <li>Gestion des litiges</li>
+                                                    <li>Création du visuel et paramétrage d’un nouveau site internet (interface en anglais)</li>
+                                                    <li>Réflexion sur les nouvelles procédures du site internet et ameliorations des procédures en place</li>
+                                                    <li>Formatage et uniformisation de données (nettoyage de la base de données)</li>
+                                                    <li>Veille/comparatif des sites existants (visuel et utilisation)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="timelineCard">
+                                            <div class="timelineInfo">
+                                                <h6 class="timelineDate">Janvier 2019 – Juillet 2019 (6 mois)</h6>
+                                                <h5 class="timelineTitle">Volontaire</h5>
+                                                <h6 class="timelinePlace">ASHBURNHAM CHRISTIAN TRUST | Battle, Royaume-Uni</h6>
+                                                <ul>
+                                                    <li>Activités hôtelières dans un centre de conférences</li>
+                                                    <li>Clientèle anglophone</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed text-uppercase lineHeightPlus" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                <p class="mb-0"><i class="fa-solid fa-user-graduate fa-1x"></i><span
+                                        class="p-2">Formations</span></p>
+                            </button>
+                        </h4>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree" data-bs-parent="#accordionPanelsStayOpen">
+                            <div class="accordion-body">
+                                <div class="timeline py-2 px-auto">
+                                    <div class="timelineOuter">
+                                        <div class="timelineCard">
+                                            <div class="timelineInfo">
+                                                <h6 class="timelineDate">Novembre 2019 – Juillet 2021 (1 an 8 mois)</h6>
+                                                <h5 class="timelineTitle">Employée service client</h5>
+                                                <h6 class="timelinePlace">LIBRAIRIE CLC | Montélimar, Drôme</h6>
+                                                <ul>
+                                                    <li>Prise des commandes et conseils</li>
+                                                    <li>Gestion des litiges</li>
+                                                    <li>Création du visuel et paramétrage d’un nouveau site internet (interface en anglais)</li>
+                                                    <li>Réflexion sur les nouvelles procédures du site internet et ameliorations des procédures en place</li>
+                                                    <li>Formatage et uniformisation de données (nettoyage de la base de données)</li>
+                                                    <li>Veille/comparatif des sites existants (visuel et utilisation)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="timelineCard">
+                                            <div class="timelineInfo">
+                                                <h6 class="timelineDate">Janvier 2019 – Juillet 2019 (6 mois)</h6>
+                                                <h5 class="timelineTitle">Volontaire</h5>
+                                                <h6 class="timelinePlace">ASHBURNHAM CHRISTIAN TRUST | Battle, Royaume-Uni</h6>
+                                                <ul>
+                                                    <li>Activités hôtelières dans un centre de conférences</li>
+                                                    <li>Clientèle anglophone</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed text-uppercase lineHeightPlus" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                <p class="mb-0"><i class="fa-solid fa-language fa-1x"></i><span class="p-2">Langues &
+                                        Intêrets</span></p>
+                            </button>
+                        </h4>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour" data-bs-parent="#accordionPanelsStayOpen">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse
+                                plugin adds the appropriate classes that we use to style each element. These classes
+                                control the overall
+                                appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                                this with custom
+                                CSS or overriding our default variables. It's also worth noting that just about any HTML
+                                can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE DERNIERS PROJETS -->
+
+        <div id="portfolio" class="container-fluid py-4">
+
+            <div class="col-12 col-md-6 pt-2 d-flex align-items-center justify-content-left">
+                <!-- pt-2 permet de corriger la différence de padding entre le haut et le bas. Raison inconnue, seule solution trouvée -->
+                <h3 class="px-5 py-3 text-uppercase lineHeightPlus border border-start-0 border-dark bg-light">Derniers
+                    projets</h3>
+            </div>
+
+            <div class="container py-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://loremflickr.com/320/240/dog" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col mx-auto">
+                                            <span class="badge">HTML</span>
+                                            <span class="badge">CSS</span>
+                                            <span class="badge">Bootstrap</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="card-link">Card link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://loremflickr.com/320/240/llama" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col mx-auto">
+                                            <span class="badge">HTML</span>
+                                            <span class="badge">CSS</span>
+                                            <span class="badge">Bootstrap</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="card-link">Card link</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://loremflickr.com/320/240/dog" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col mx-auto">
+                                            <span class="badge">HTML</span>
+                                            <span class="badge">CSS</span>
+                                            <span class="badge">Bootstrap</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="#"><button type="button" class="btn">Voir plus de projets</button></a>
+            </div>
+        </div>
+
+        <!-- PAGE DE CONTACT -->
+
+        <div id="contact" class="container-fluid py-4">
+
+            <div class="col-12 col-md-6 pt-2 d-flex align-items-center justify-content-left">
+                <!-- pt-2 permet de corriger la différence de padding entre le haut et le bas. Raison inconnue, seule solution trouvée -->
+                <h3 class="px-5 py-3 text-uppercase lineHeightPlus border border-start-0 border-dark bg-light">Me
+                    contacter</h3>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div
+                        class="col-12 order-md-last col-md-5 py-4 d-flex flex-column justify-content-center text-center">
+                        <div>
+                            <h4 class="text-uppercase txtWhite lineHeightPlus">Solène Brunel</h4>
+                            <h5 class="text-uppercase txtWhite">Formation web et développement web</h5>
+                            <a class="btn my-4" href="#" role="button">Télécharger le CV en PDF</a>
+
+                            <!--caché sur les écrans plus petits que md-->
+                            <div class="container d-none d-md-block">
+                                <div class="row justify-content-center">
+
+                                    <div class="col-2">
+                                        <a href="https://www.linkedin.com/in/sol%C3%A8ne-brunel-473439138/">
+                                            <i class="fa-brands fa-linkedin fa-3x"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="https://github.com/solene-sephi"><i
+                                                class="fa-brands fa-github fa-3x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--caché sur les écrans md et plus grands -->
+                            <div class="container d-md-none">
+                                <div class="row justify-content-center">
+                                    <div class="col-2">
+                                        <a href="https://www.linkedin.com/in/sol%C3%A8ne-brunel-473439138/">
+                                            <i class="fa-brands fa-linkedin fa-3x"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-2">
+                                        <a href="https://github.com/solene-sephi"><i
+                                                class="fa-brands fa-github fa-3x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-7 py-4">
+                        <form action="#" method="post">
+                            <div class="container-fluid">
+                                <div class="row">
+
+                                    <div class="col-12 col-md-3 mb-2 mb-md-4">
+                                        <select name="civility" id="civility" class="form-select px-0 py-3">
+                                            <option selected value="civility">Civilité</option>
+                                            <option value="mrs">Madame</option>
+                                            <option value="mr">Monsieur</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12 col-md-5 mb-2 mb-md-4 form-floating">
+                                        <input type="text" name="lastName" id="lastName" class="form-control"
+                                            placeholder="Renseignez votre nom" required="required">
+                                        <label for="lastName">Nom</label>
+                                    </div>
+
+                                    <div class="col-12 col-md-4 mb-2 mb-md-4 form-floating">
+                                        <input type="text" name="name" id="name" class="form-control"
+                                            placeholder="Renseignez votre prénom">
+                                        <label for="name">Prénom</label>
+                                    </div>
+
+                                    <div class="col-12 col-md-7 mb-2 mb-md-4 form-floating">
+                                        <input type="email" name="mail" id="mail" class="form-control"
+                                            placeholder="Renseignez votre adresse mail" required="required">
+                                        <label for="mail">Mail</label>
+                                    </div>
+
+                                    <div class="col-12 col-md-5 mb-2 mb-md-4 form-floating">
+                                        <input type="tel" name="phone" id="phone" class="form-control"
+                                            placeholder="Renseignez votre numéro de téléphone">
+                                        <label for="phone">Téléphone</label>
+                                    </div>
+
+                                    <div class="col-12 mb-2 mb-md-4 form-floating">
+                                        <textarea name="message" id="message" class="form-control"
+                                            placeholder="Ecrivez votre message" required="required"
+                                            rows="60"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+
+
+                                    <div class="col-12 d-flex align-items-center justify-content-center">
+                                        <input class="btn" type="submit" value="Envoyer">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="px-4 pb-4">
+        <div class="hr-theme-slash-2">
+            <div class="hr-line"></div>
+            <div class="hr-icon"><i class="fa-solid fa-network-wired fa-2x"></i></div>
+            <div class="hr-line"></div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center txtWhite my-auto">
+                    <p class="mb-0">© 2022 By Solène Brunel with Bootstrap</p>
+                </div>
+
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#creditsModal">
+                        Crédits
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="creditsModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="creditsModalLabel">Crédits</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h6>Images</h6>
+                                    <p></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
