@@ -6,15 +6,16 @@ body {
 }
 
 #mainContainer {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-  position: relative; /* necessaire pour le fonctionnement de scrollspy */
+  position: relative;
+  /* necessaire pour le fonctionnement de scrollspy */
 }
 
 .sectionTitle {
-  background-color: #902923  
+  background-color: #902923
 }
 
 .lineHeightPlus {
@@ -27,7 +28,7 @@ body {
 }
 
 .txtWhite {
-  color:#fff
+  color: #fff
 }
 
 
@@ -72,8 +73,8 @@ body {
   background: #212322;
 }
 
-#blocTitle{
-    background-color: #fff;
+#blocTitle {
+  background-color: #fff;
 }
 
 
@@ -85,9 +86,6 @@ body {
 
 
 /*PAGE COMPETENCES */
-
-
-
 
 .competenceCard {
   background: #fff;
@@ -104,50 +102,108 @@ body {
   margin-right: 0.5em;
 }
 
-  /* pris et personnlisé de https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
-  .timelineOuter {
-    border-left: 3px solid #D6D5C9;
-  }
-  
-  .timelineCard {
-    position: relative;
-    margin: 0 0 20px 20px;
-    padding: 10px;
-  }
-  
-  .timelineInfo {
-    display: flex;
-    flex-direction: column;
-    }
+/* pris et personnlisé de https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
+.timelineOuter {
+  border-left: 3px solid #D6D5C9;
+}
+
+.timelineCard {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+}
+
+.timelineInfo {
+  display: flex;
+  flex-direction: column;
+}
 
 
-  .timelineDate {
-    color: #902923;
-    position: relative;
-  }
-  
-  .timelinePlace {
-    color: #902923;
+.timelineDate {
+  color: #902923;
+  position: relative;
+}
+
+.timelinePlace {
+  color: #902923;
+  position: relative;
+}
+
+.timelineTitle {
+  color: #902923;
+  position: relative;
+}
+
+/* timeline dot  */
+.timelineTitle::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -37px;
+  border: 3px solid #902923;
+}
+
+/* option 2 page competences */
+
+.nav-tabs>.nav-link {
+  border: #fff solid 2px;
+  border-bottom: none;
+  border-radius: 0;
+  color: #fff;
+  background-color: #212322;
+}
+
+.competencesNav .nav-link.active {
+  background: #fff;
+  color: #0A100D;
+}
+
+.competencesNav.tab-content {
+  border: #fff solid 2px;
+}
+
+/* pris sur https://8biticon.com/minting-guide */
+
+@media screen and (min-width:768px) {
+  .tabBorder {
     position: relative;
   }
 
-  
-  .timelineTitle {
-    color: #902923;
-    position: relative;
-  }
-  
-  /* timeline dot  */
-  .timelineTitle::before {
+  .tabBorder::before {
     content: "";
+    display: block;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
-    border-radius: 999px;
-    left: -37px;
-    border: 3px solid #902923;
+    z-index: 1;
+    box-sizing: border-box;
+    height: calc(100% + 54px);
+    width: 12px;
+    right: -12px;
+    bottom: -31px;
+    transform: skewY(40deg);
   }
+
+  .tabBorder::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    width: calc(100% + 3px);
+    height: 12px;
+    right: -6px;
+    bottom: -38px;
+    transform: skewX(40deg);
+  }
+}
+
 
 
 
@@ -179,7 +235,7 @@ body {
 /* PAGE DE CONTACT */
 
 #message {
-    height: 150px;
+  height: 150px;
 }
 
 
@@ -195,17 +251,18 @@ body {
 
 /* pris de https://csshint.com/bootstrap-horizontal-line-examples/ */
 .hr-theme-slash-2 {
-    display: flex;
-  }
-  .hr-line {
-    width: 100%;
-    position: relative;
-    margin: 15px;
-    border-bottom: 3px solid #fff;
-  }
-  .hr-icon {
-    position: relative;
-    top: 3px;
-    color: #fff;
-  }
+  display: flex;
+}
 
+.hr-line {
+  width: 100%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 3px solid #fff;
+}
+
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: #fff;
+}
