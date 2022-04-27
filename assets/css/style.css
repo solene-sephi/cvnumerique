@@ -40,21 +40,21 @@ body {
 
 /*MENU DE NAVIGATION */
 
-.navbar {
+.mainNav {
   background-color: #0A100D;
 }
 
-.nav-link {
+.mainNav-link {
   color: #fff;
 }
 
-.nav-link.active {
+.mainNav-link.active {
   color: #fff;
   background-color: #902923;
   border-radius: 5px;
 }
 
-.nav-link:hover {
+.mainNav-link:hover {
   color: #902923;
   border-radius: 5px;
 }
@@ -86,10 +86,12 @@ body {
 
 /*PAGE COMPETENCES */
 
+
+
+
 .competenceCard {
   background: #fff;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px #fff, -2px -2px 2px #fff;
 }
 
 .competenceCard h3 {
