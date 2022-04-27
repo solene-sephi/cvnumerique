@@ -39,6 +39,7 @@ body {
 
 
 
+
 /*MENU DE NAVIGATION */
 
 .mainNav {
@@ -95,11 +96,11 @@ body {
 
 
 
+
 /*PAGE COMPETENCES */
 
 .competenceCard {
   background: #fff;
-  border-radius: 5px;
 }
 
 .competenceCard h3 {
@@ -112,50 +113,7 @@ body {
   margin-right: 0.5em;
 }
 
-/* pris et personnlisé de https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
-.timelineOuter {
-  border-left: 3px solid #D6D5C9;
-}
-
-.timelineCard {
-  position: relative;
-  margin: 0 0 20px 20px;
-  padding: 10px;
-}
-
-.timelineInfo {
-  display: flex;
-  flex-direction: column;
-}
-
-.timelineDate {
-  color: #902923;
-  position: relative;
-}
-
-.timelinePlace {
-  color: #902923;
-  position: relative;
-}
-
-.timelineTitle {
-  color: #902923;
-  position: relative;
-}
-
-/* timeline dot  */
-.timelineTitle::before {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: white;
-  border-radius: 999px;
-  left: -37px;
-  border: 3px solid #902923;
-}
-
-/* option 2 page competences */
+/* menu competences */
 .nav-tabs>.nav-link {
   border: #fff solid 2px;
   border-bottom: none;
@@ -173,7 +131,7 @@ body {
   border: #fff solid 2px;
 }
 
-/* pris sur https://8biticon.com/minting-guide */
+/* effet de perspective - pris sur https://8biticon.com/minting-guide */
 @media screen and (min-width:768px) {
   .tabBorder {
     position: relative;
@@ -210,6 +168,50 @@ body {
     transform: skewX(40deg);
   }
 }
+
+/* timeline - pris et personnlisé de https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
+.timelineOuter {
+  border-left: 3px solid #D6D5C9;
+}
+
+.timelineCard {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+}
+
+.timelineInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.timelineDate {
+  color: #212322;
+  position: relative;
+}
+
+.timelineTitle {
+  color: #902923;
+  border-bottom: #0A100D 1px solid;
+  position: relative;
+}
+
+.timelinePlace {
+  color: #212322;
+  position: relative;
+}
+
+.timelineTitle::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -37px;
+  border: 3px solid #902923;
+}
+
 
 
 
