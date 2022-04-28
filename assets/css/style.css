@@ -133,7 +133,7 @@ body {
 
 
 /* menu competences */
-.nav-tabs>.nav-link {
+.competencesNav .nav-link {
   border: #fff solid 2px;
   border-bottom: none;
   border-radius: 0;
@@ -186,6 +186,25 @@ body {
     bottom: -45px;
     transform: skewX(40deg);
   }
+  
+  button.navBorder {
+    position: relative;
+  }
+  button.navBorder::before {
+    content: "";
+    display: block;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    position: absolute;
+    z-index: -1;
+    box-sizing: border-box;
+    width: 20px;
+    height: 68%;
+    right: -22px;
+    bottom: 7px;
+    transform: skewY(40deg); 
+  }
+
 }
 
 /* timeline - pris et personnlisé de https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
