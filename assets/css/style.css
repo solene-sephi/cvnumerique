@@ -14,9 +14,12 @@ body {
   /* necessaire pour le fonctionnement de scrollspy */
 }
 
-.sectionTitle {
-  background-color: #902923
+.highlightRed {
+  background-color: #902923;
+  color: #fff;
+  padding: 0 0.5rem 0 0.5rem;
 }
+
 
 .lineHeightPlus {
   letter-spacing: 0.1em
@@ -24,6 +27,11 @@ body {
 
 .btn {
   background-color: #a6544f;
+  color: #fff;
+}
+
+.btn:hover {
+  background:#902923;
   color: #fff;
 }
 
@@ -113,6 +121,17 @@ body {
   margin-right: 0.5em;
 }
 
+.competenceCard .btn {
+  background-color: #212322;
+  color: #fff;
+}
+
+.competenceCard .btn:hover {
+  background:#0A100D;
+  color: #fff;
+}
+
+
 /* menu competences */
 .nav-tabs>.nav-link {
   border: #fff solid 2px;
@@ -146,10 +165,10 @@ body {
     position: absolute;
     z-index: 1;
     box-sizing: border-box;
-    height: calc(100% + 54px);
-    width: 12px;
-    right: -12px;
-    bottom: -31px;
+    height: calc(100% + 54.5px);
+    width: 20px;
+    right: -20px;
+    bottom: -35px;
     transform: skewY(40deg);
   }
 
@@ -161,22 +180,22 @@ body {
     position: absolute;
     z-index: 1;
     box-sizing: border-box;
-    width: calc(100% + 3px);
-    height: 12px;
-    right: -6px;
-    bottom: -38px;
+    width: calc(100% + 6px);
+    height: 20px;
+    right: -12px;
+    bottom: -45px;
     transform: skewX(40deg);
   }
 }
 
 /* timeline - pris et personnlisé de https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
 .timelineOuter {
-  border-left: 3px solid #D6D5C9;
+  border-left: 3px solid #212322;
 }
 
 .timelineCard {
   position: relative;
-  margin: 0 0 20px 20px;
+  margin: 0 0 0 20px;
   padding: 10px;
 }
 
@@ -186,18 +205,14 @@ body {
 }
 
 .timelineDate {
-  color: #212322;
   position: relative;
 }
 
 .timelineTitle {
-  color: #902923;
-  border-bottom: #0A100D 1px solid;
   position: relative;
 }
 
 .timelinePlace {
-  color: #212322;
   position: relative;
 }
 
@@ -208,7 +223,8 @@ body {
   height: 10px;
   background: white;
   border-radius: 999px;
-  left: -37px;
+  left: -36px;
+  top: 8px;
   border: 3px solid #902923;
 }
 
@@ -257,6 +273,14 @@ border-radius: 0px;
 
 #message {
   height: 150px;
+}
+
+.network {
+  color: #fff ;
+}
+
+.network:hover {
+  color:#212322;
 }
 
 

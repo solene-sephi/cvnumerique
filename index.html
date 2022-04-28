@@ -15,7 +15,7 @@
 
     <!-- MENU DE NAVIGATION -->
 
-    <nav class="mainNav navbar nav nav-fill sticky-top txtWhite px-3  border-2">
+    <nav class="mainNav navbar nav sticky-top txtWhite px-md-3">
         <a class="mainNav-link nav-link active" href="#home">Accueil</a>
         <a class="mainNav-link nav-link" href="#competences">Compétences</a>
         <a class="mainNav-link nav-link" href="#portfolio">Portfolio</a>
@@ -30,18 +30,18 @@
         <!-- PAGE D'ACCUEIL -->
 
         <div id="home" class="container-fluid vh-100 d-flex">
-            <div class="row">
+            <div class="row justify-content-center">
 
-                <div class="col-6 col-md-4">
-                    <im class="img-fluid" src="assets/img/Avatar-Maker (Petite).png" alt="avatar blond">
+                <div class="col-8 col-md-5 d-flex align-items-center">
+                    <img class="img-fluid rounded-circle" src="assets/img/officewoman.jpg" alt="avatar blond">
                 </div>
 
-                <div class=" col-12 col-md-8 p-4 p-md-5 align-self-center">
+                <div class=" col-12 col-md-7 p-4 p-md-5 align-self-center">
 
                     <div id="blocTitle" class="py-3 py-md-4 border border-dark text-center">
                         <div class="px-3 text-uppercase">
                             <h1 class="lineHeightPlus">Solène Brunel</h1>
-                            <h2><span class="sectionTitle">Développeur web junior</span> </h2>
+                            <h2><span class="highlightRed">Développeur web junior</span> </h2>
                             <p class="mb-0"> 27 ans</p>
                             <p class="mb-0">Compiègne (60)</p>
                             <p class="mb-0">Permis B - Véhiculée</p>
@@ -66,7 +66,7 @@
 
             <div class="mb-4 d-flex flex-column justify-content-center">
                 <h2 class="text-uppercase lineHeightPlus txtWhite mx-auto">Mes <span
-                        class="sectionTitle">compétences</span>
+                        class="highlightRed">compétences</span>
                 </h2>
             </div>
             <div>
@@ -214,59 +214,171 @@
                                         <div class="timelineOuter">
                                             <div class="timelineCard">
                                                 <div class="timelineInfo">
-                                                    <h6 class="timelineDate">2020 – 2021 (9 mois)</h6>
-                                                    <h5 class="timelineTitle">Employée service client</h5>
+                                                    <h6 class="timelineDate"> 2020 – 2021 (9 mois)</h6>
+                                                    <h5 class="timelineTitle"><span class="highlightRed">Employée
+                                                            service client</span></h5>
                                                     <h6 class="timelinePlace">Librairie CLC | Montélimar, Drôme</h6>
-                                                    <ul>
-                                                        <li>Prise des commandes et conseils (mail et téléphone)</li>
-                                                        <li>Gestion des commandes internet</li>
-                                                        <li>Gestion des litiges</li>
-                                                        <li>Facturation</li>
-                                                    </ul>
+                                                    <!-- modal -->
+                                                    <div class="text-end">
+                                                        <button type="button" class="btn btn-sm" data-bs-toggle="modal"
+                                                            data-bs-target="#modalserviceclient">
+                                                            Plus d'infos
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal fade" id="modalserviceclient" tabindex="-1"
+                                                        aria-labelledby="modalserviceclientLabel" aria-hidden="true">
+                                                        <div
+                                                            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title"
+                                                                        id="modalserviceclientLabel">Employée
+                                                                        service client</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <ul>
+                                                                        <li>Prise des commandes et conseils (mail et
+                                                                            téléphone)</li>
+                                                                        <li>Gestion des commandes internet</li>
+                                                                        <li>Gestion des litiges</li>
+                                                                        <li>Gestion des dépôts libraires et particuliers
+                                                                        </li>
+                                                                        <li>Facturation</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="timelineCard">
                                                 <div class="timelineInfo">
                                                     <h6 class="timelineDate">2019 - 2020 (10 mois)</h6>
-                                                    <h5 class="timelineTitle">Service civique</h5>
+                                                    <h5 class="timelineTitle"><span class="highlightRed">Service
+                                                            civique</span></h5>
                                                     <h6 class="timelinePlace">Librairie CLC | Montélimar, Drôme</h6>
-                                                    <ul>
-                                                        <li>Création du visuel et paramétrage d’un nouveau site internet
-                                                            (interface en anglais)</li>
-                                                        <li>Réflexion sur les nouvelles procédures du site internet et
-                                                            ameliorations des procédures en place</li>
-                                                        <li>Formatage et uniformisation de données (nettoyage de la base
-                                                            de données)</li>
-                                                        <li>Veille/comparatif des sites existants (visuel et
-                                                            utilisation)</li>
-                                                    </ul>
+                                                    <!-- modal -->
+                                                    <div class="text-end">
+                                                        <button type="button" class="btn btn-sm" data-bs-toggle="modal"
+                                                            data-bs-target="#modalservicecivique">
+                                                            Plus d'infos
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal fade" id="modalservicecivique" tabindex="-1"
+                                                        aria-labelledby="modalserviceciviqueLabel" aria-hidden="true">
+                                                        <div
+                                                            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title"
+                                                                        id="modalserviceciviqueLabel">Service civique
+                                                                    </h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <ul>
+                                                                        <li>Création du visuel et paramétrage d’un
+                                                                            nouveau site internet
+                                                                            (interface en anglais)</li>
+                                                                        <li>Réflexion sur les nouvelles procédures du
+                                                                            site internet et
+                                                                            ameliorations des procédures en place</li>
+                                                                        <li>Formatage et uniformisation de données
+                                                                            (nettoyage de la base
+                                                                            de données)</li>
+                                                                        <li>Veille/comparatif des sites existants
+                                                                            (visuel et
+                                                                            utilisation)</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="timelineCard">
                                                 <div class="timelineInfo">
                                                     <h6 class="timelineDate">2019 (6 mois)</h6>
-                                                    <h5 class="timelineTitle">Volontaire</h5>
+                                                    <h5 class="timelineTitle"><span
+                                                            class="highlightRed">Volontaire</span></h5>
                                                     <h6 class="timelinePlace">Ashburnham | Battle, Royaume-Uni
                                                     </h6>
-                                                    <ul>
-                                                        <li>Activités hôtelières dans un centre de conférences</li>
-                                                        <li>Clientèle anglophone</li>
-                                                    </ul>
+                                                    <!-- modal -->
+                                                    <div class="text-end">
+                                                        <button type="button" class="btn btn-sm" data-bs-toggle="modal"
+                                                            data-bs-target="#modalvolontaire">
+                                                            Plus d'infos
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal fade" id="modalvolontaire" tabindex="-1"
+                                                        aria-labelledby="modalvolontaireLabel" aria-hidden="true">
+                                                        <div
+                                                            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="modalvolontaireLabel">
+                                                                    </h5>
+                                                                    Volontaire</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <ul>
+                                                                        <li>Activités hôtelières dans un centre de
+                                                                            conférences</li>
+                                                                        <li>Clientèle anglophone</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="timelineCard">
                                                 <div class="timelineInfo">
                                                     <h6 class="timelineDate">2017 - 2018 (1 an 5 mois)</h6>
-                                                    <h5 class="timelineTitle">Clerc de notaire</h5>
+                                                    <h5 class="timelineTitle"><span class="highlightRed">Clerc de
+                                                            notaire</span></h5>
                                                     <h6 class="timelinePlace">Maître Chapron-Jaquette | Pierrefonds,
                                                         Oise
                                                     </h6>
-                                                    <ul>
-                                                        <li>Constitution de dossiers immobiliers</li>
-                                                        <li>Rédaction d'actes</li>
-                                                        <li>Suivi et traitement des dossiers</li>
-                                                        <li>Relations avec les clients et partenaires</li>
-                                                    </ul>
+                                                    <!-- modal -->
+                                                    <div class="text-end">
+                                                        <button type="button" class="btn btn-sm" data-bs-toggle="modal"
+                                                            data-bs-target="#modalclerc">
+                                                            Plus d'infos
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal fade" id="modalclerc" tabindex="-1"
+                                                        aria-labelledby="modalclercLabel" aria-hidden="true">
+                                                        <div
+                                                            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="modalclercLabel">
+                                                                        Clerc de notaire</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <ul>
+                                                                        <li>Constitution de dossiers immobiliers</li>
+                                                                        <li>Rédaction d'actes</li>
+                                                                        <li>Suivi et traitement des dossiers</li>
+                                                                        <li>Relations avec les clients et partenaires
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -282,37 +394,170 @@
                                         <div class="timelineOuter">
                                             <div class="timelineCard">
                                                 <div class="timelineInfo">
-                                                    <h6 class="timelineDate">2022</h6>
+                                                    <h6 class="timelineDate"><span class="highlightRed">2022</span></h6>
                                                     <h5 class="timelineTitle">Titre Professionnel Développeur Web et Web
-                                                        Mobile
-                                                        (Bac+2)</h5>
+                                                        Mobile (Bac+2)</h5>
                                                     <h6 class="timelinePlace">La Manu, Campus de Compiègne-Noyon</h6>
+                                                    <!-- modal -->
+                                                    <div class="text-end">
+                                                        <button type="button" class="btn btn-sm" data-bs-toggle="modal"
+                                                            data-bs-target="#modalDWWM">
+                                                            Plus d'infos
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal fade" id="modalDWWM" tabindex="-1"
+                                                        aria-labelledby="modalDWWMLabel" aria-hidden="true">
+                                                        <div
+                                                            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="modalDWWMLabel">Titre
+                                                                        Professionnel Développeur Web et Web Mobile
+                                                                        (Bac+2)</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <h6>Fondamentaux</h6>
+                                                                    <ul>
+                                                                        <li>Introduction sur : écosystèmes, cultures
+                                                                            numérique, veille, objets connectés,
+                                                                            environnement Linux et Licences open source
+                                                                        </li>
+                                                                        <li>Organiser une veille et gérer un projet</li>
+                                                                    </ul>
+                                                                    <h6>Module Développeur Front-End</h6>
+                                                                    <ul>
+                                                                        <li>Apprentissage des langages Front-End (HTML,
+                                                                            CSS, JS) pour réaliser l’intégration d’un
+                                                                            site web dynamique</li>
+                                                                        <li>Maitrise du framework Bootstrap pour gérer
+                                                                            l’adaptabilité sur différents écrans
+                                                                            (ordinateur, tablette, smartphone…)</li>
+                                                                        <li>Élaboration du cahier des charges d’un
+                                                                            projet web (UX Design, maquettage…)</li>
+                                                                        <li>Création, personnalisation de la charte
+                                                                            graphique et administration d’un site
+                                                                            internet</li>
+                                                                        <li>Mise en pratique des techniques de
+                                                                            référencement naturel SEO pour améliorer la
+                                                                            visibilité du site sur les moteurs de
+                                                                            recherche</li>
+                                                                    </ul>
+                                                                    <h6>Module Développeur Back-End</h6>
+                                                                    <ul>
+                                                                        <li>Découverte de l’algorithmie</li>
+                                                                        <li>Apprentissage du langage PHP pour réaliser
+                                                                            les traitements côté serveur d’un site ou
+                                                                            d’une application web</li>
+                                                                        <li>Conception et mise en œuvre d’une base de
+                                                                            données (SQL, Merise)</li>
+                                                                        <li>Développement de modules pour un site
+                                                                            internet avec WordPress</li>
+                                                                        <li>Sécurisation d’un site web en utilisant les
+                                                                            bonnes pratiques de la cybersécurité</li>
+                                                                        <li>Publication d’un site en ligne sur un
+                                                                            serveur web</li>
+                                                                    </ul>
+                                                                    <h6>Mise en situation professionnelle</h6>
+                                                                    <ul>
+                                                                        <li>Période en entreprise de 40 heures</li>
+                                                                        <li>Travail collaboratif sur des projets
+                                                                            concrets d’entreprises</li>
+                                                                        <li>Réalisation d’un projet de mise en situation
+                                                                            professionnelle en développement</li>
+                                                                        <li>Préparation aux entretiens professionnels
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="timelineCard">
                                                 <div class="timelineInfo">
-                                                    <h6 class="timelineDate">2018</h6>
+                                                    <h6 class="timelineDate"><span class="highlightRed">2018</span></h6>
                                                     <h5 class="timelineTitle">Diplôme Institut des Métiers du Notariat
                                                         (Bac+4)
                                                     </h5>
                                                     <h6 class="timelinePlace">IMN de Lille</h6>
+                                                    <!-- modal -->
+                                                    <div class="text-end">
+                                                        <button type="button" class="btn btn-sm" data-bs-toggle="modal"
+                                                            data-bs-target="#modalDIMN">
+                                                            Plus d'infos
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal fade" id="modalDIMN" tabindex="-1"
+                                                        aria-labelledby="modalDIMNLabel" aria-hidden="true">
+                                                        <div
+                                                            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="modalDIMNLabel">Diplôme
+                                                                        Institut des Métiers du Notariat
+                                                                        (Bac+4)</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <ul>
+                                                                        <li>Droits des personnes et de la famille</li>
+                                                                        <li>Droit de l’immobilier</li>
+                                                                        <li>Droit de l’entreprise</li>
+                                                                        <li>Droit professionnel notarial</li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                             </div>
 
                                             <div class="timelineCard">
                                                 <div class="timelineInfo">
-                                                    <h6 class="timelineDate">2017</h6>
+                                                    <h6 class="timelineDate"><span class="highlightRed">2017</span></h6>
                                                     <h5 class="timelineTitle">Licence 3 en Droit et Culture Juridique
                                                         (Bac+3)
                                                     </h5>
                                                     <h6 class="timelinePlace">Université Catholique de Lille</h6>
+                                                    <!-- modal -->
+                                                    <div class="text-end">
+                                                        <button type="button" class="btn btn-sm" data-bs-toggle="modal"
+                                                            data-bs-target="#modaldroit">
+                                                            Plus d'infos
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal fade" id="modaldroit" tabindex="-1"
+                                                        aria-labelledby="modaldroitLabel" aria-hidden="true">
+                                                        <div
+                                                            class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="modaldroitLabel">Licence
+                                                                        3 en Droit et Culture Juridique
+                                                                        (Bac+3)</h5>
+                                                                    <button type="button" class="btn-close"
+                                                                        data-bs-dismiss="modal"
+                                                                        aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    ...
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="timelineCard">
                                                 <div class="timelineInfo">
-                                                    <h6 class="timelineDate">2011</h6>
+                                                    <h6 class="timelineDate"><span class="highlightRed">2011</span></h6>
                                                     <h5 class="timelineTitle">Baccalauréat, série S</h5>
                                                     <h6 class="timelinePlace">Lycée Pierre d'Ailly, Compiègne</h6>
                                                 </div>
@@ -340,7 +585,7 @@
         <div id="portfolio" class="container-fluid py-5">
 
             <div class="mb-4 d-flex flex-column justify-content-center">
-                <h2 class="text-uppercase lineHeightPlus txtWhite mx-auto">Mes <span class="sectionTitle">derniers
+                <h2 class="text-uppercase lineHeightPlus txtWhite mx-auto">Mes <span class="highlightRed">derniers
                         projets</span></h2>
             </div>
 
@@ -421,7 +666,7 @@
 
             <div class="mb-4 d-flex flex-column justify-content-center">
                 <h2 class="text-uppercase lineHeightPlus txtWhite mx-auto">Me <span
-                        class="sectionTitle">contacter</span></h2>
+                        class="highlightRed">contacter</span></h2>
             </div>
 
             <div class="container-fluid">
@@ -438,12 +683,13 @@
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-2">
-                                        <a href="https://www.linkedin.com/in/sol%C3%A8ne-brunel-473439138/">
+                                        <a class="network"
+                                            href="https://www.linkedin.com/in/sol%C3%A8ne-brunel-473439138/">
                                             <i class="fa-brands fa-linkedin fa-3x"></i>
                                         </a>
                                     </div>
                                     <div class="col-2">
-                                        <a href="https://github.com/solene-sephi"><i
+                                        <a class="network" href="https://github.com/solene-sephi"><i
                                                 class="fa-brands fa-github fa-3x"></i></a>
                                     </div>
                                 </div>
@@ -544,7 +790,8 @@
                                 </div>
                                 <div class="modal-body">
                                     <h6>Images</h6>
-                                    <p></p>
+                                    <p><a href='https://fr.freepik.com/vecteurs/affaires'>Affaires vecteur créé par
+                                            upklyak - fr.freepik.com</a></p>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
