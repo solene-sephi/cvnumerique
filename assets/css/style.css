@@ -39,6 +39,12 @@ body {
   color: #fff
 }
 
+.txtRed {
+  color: #902923;
+}
+
+
+
 
 
 
@@ -87,6 +93,10 @@ body {
 
 
 
+
+
+
+
 /* PAGE D'ACCUEIL */
 #home {
   background: #212322;
@@ -105,8 +115,13 @@ body {
 
 
 
-/*PAGE COMPETENCES */
 
+
+
+
+
+/* PAGE COMPETENCES */
+/* general */
 .competenceCard {
   background: #fff;
 }
@@ -132,7 +147,7 @@ body {
 }
 
 
-/* menu competences */
+/* menu */
 .competencesNav .nav-link {
   border: #fff solid 2px;
   border-bottom: none;
@@ -150,7 +165,7 @@ body {
   border: #fff solid 2px;
 }
 
-/* effet de perspective - pris sur https://8biticon.com/minting-guide */
+/* effet de perspective - pris et personnalisé grâce à https://8biticon.com/minting-guide */
 @media screen and (min-width:768px) {
   .tabBorder {
     position: relative;
@@ -207,7 +222,7 @@ body {
 
 }
 
-/* timeline - pris et personnlisé de https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
+/* timeline - pris et personnlisé grâce à https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
 .timelineOuter {
   border-left: 3px solid #212322;
 }
@@ -247,6 +262,19 @@ body {
   border: 3px solid #902923;
 }
 
+/* modales */
+.modal-title {
+  background: #0A100D;
+  text-transform: uppercase ;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+
+
+
+
+
 
 
 
@@ -280,6 +308,24 @@ border-radius: 0px;
 }
 
 
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+  width: 3rem;
+}
+
+.carousel-control-prev-icon
+.carousel-control-next-icon {
+  width: 3rem;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -301,6 +347,9 @@ border-radius: 0px;
 .network:hover {
   color:#212322;
 }
+
+
+
 
 
 
