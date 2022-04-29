@@ -29,17 +29,84 @@
 
         <!-- PAGE D'ACCUEIL -->
 
-        <div id="home" class="container-fluid vh-100 d-flex">
+        <div id="home" class="container-fluid text-center align-middle pb-4">
+            <div class="row homeRow">
 
+                <!-- zone nom prenom poste -->
+                <div class="col-12 col-md-6 order-1 order-md-2 py-4 d-md-flex flex-md-column justify-content-md-center bgGrey text-uppercase bg-success">
+                    <h1><span class="txtWhite letterSpacingPlus">Solène </span><span
+                            class="letterSpacingPlus txtRed">Brunel</span></h1>
+                    <h2 class="letterSpacingPlus"><span class="highlightRed">Développeur Web Junior</span>
+                    </h2>
+                </div>
 
+                <!-- zone telephone permis etc -->
+                <div class="homeInfos col-12 col-md-6 order-2 order-md-5 pb-4 py-md-0 px-md-0 bgGrey txtWhite bg-warning">
+                    <div class="container-fluid d-md-flex flex-md-column justify-content-md-center">
+                        <div class="row">
+                            <div class="col-4 col-md-12 p-2 d-flex flex-row justify-content-end align-items-center">
+                                <p class="m-0">27 ans</p>
+                                <i class="fa-solid fa-user fa-1x"></i>
+                            </div>
+                            <div class="col-8 col-md-12 p-2 d-flex flex-row justify-content-end align-items-center">
+                                <p class="m-0">Compiègne (60)</p>
+                                <i class="fa-solid fa-location-dot fa-1x"></i>
+                            </div>
+                        </div>
+
+                            <div class="row">
+                            <div class="col-4 col-md-12 p-2 d-flex flex-row justify-content-end align-items-center">
+                                <p class="m-0">Véhiculée</p>
+                                <i class="fa-solid fa-car fa-1x"></i>
+                            </div>
+                            <div class="col-8 col-md-12 p-2 d-flex flex-row justify-content-end align-items-center">
+                                <p class="m-0">solene.brunel@free.fr</p>
+                                <i class="fa-solid fa-envelope fa-1x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- zone texte de presentation -->
+                <div class="col-12 col-md-6 order-3 order-md-1 txtWhite bg-info">
+                    <p>PRESENTATION ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                </div>
+
+                <!-- zone decoration de code-->
+                <div class="col-12 col-md-6 order-md-5 d-none d-md-block txtWhite bg-danger">
+                    <p>DECORATION ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. </p>
+                </div>
+            </div>
         </div>
 
         <!-- PAGE COMPETENCES -->
 
-        <div id="competences" class="container-fluid py-5 px-1 px-md-5">
+        <div id="competences" class="py-4 px-1 px-md-5">
 
-            <div class="mb-4 d-flex flex-column justify-content-center">
-                <h2 class="text-uppercase lineHeightPlus txtWhite mx-auto">Mes <span
+            <div class="mb-4 pt-3 d-flex flex-column justify-content-center">
+                <h2 class="text-uppercase letterSpacingPlus txtWhite mx-auto pt-4">Mes <span
                         class="highlightRed">compétences</span>
                 </h2>
             </div>
@@ -67,7 +134,7 @@
                     </li>
                 </ul>
 
-                <div class="competencesNav tab-content">
+                <div class="competencesNav tab-content mb-5">
                     <div itemid="competenceNavPane" class="tabBorder tab-pane fade show active" id="nav-competences"
                         role="tabpanel" aria-labelledby="nav-competences-tab">
                         <div class="container-fluid">
@@ -75,27 +142,27 @@
 
                                 <div class="col-11 col-md-5 mb-4 mb-md-0">
                                     <div class="competenceCard p-3 d-flex flex-column align-items-center">
-                                        <h3 class="text-uppercase lineHeightPlus mb-4"><i
-                                                class="fa-solid fa-code fa-1x"></i>Informatique</h3>
+                                        <h3 class="text-uppercase letterSpacingPlus mb-4"><i
+                                                class="fa-solid fa-code"></i>Informatique</h3>
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-3 text-center">
+                                                <div class="col-4 col-md-3 text-center">
                                                     <p>HTML 5</p>
                                                     <i class="fab fa-html5 fa-3x mx-auto"></i>
                                                 </div>
-                                                <div class="col-3 text-center">
+                                                <div class="col-4 col-md-3 text-center">
                                                     <p>CSS 3</p>
                                                     <i class="fab fa-css3-alt fa-3x mx-auto"></i>
                                                 </div>
-                                                <div class="col-3 text-center">
+                                                <div class="col-4 col-md-3 text-center">
                                                     <p>Bootstrap</p>
                                                     <i class="fa-brands fa-bootstrap fa-3x mx-auto"></i>
                                                 </div>
-                                                <div class="col-3 text-center">
+                                                <div class="col-4 col-md-3 text-center">
                                                     <p>Figma</p>
                                                     <i class="fa-brands fa-figma fa-3x mx-auto"></i>
                                                 </div>
-                                                <div class="col-3 text-center">
+                                                <div class="col-4 col-md-3 text-center">
                                                     <p>Trello</p>
                                                     <i class="fa-brands fa-trello fa-3x mx-auto"></i>
                                                 </div>
@@ -107,8 +174,8 @@
 
                                 <div class="col-11 col-md-5 mb-4 mb-md-0">
                                     <div class="competenceCard p-3 mb-4 d-flex flex-column align-items-center">
-                                        <h3 class="text-uppercase lineHeightPlus mb-4"><i
-                                                class="fa-solid fa-language fa-1x"></i>Langues</h3>
+                                        <h3 class="text-uppercase letterSpacingPlus mb-4"><i
+                                                class="fa-solid fa-language"></i>Langues</h3>
                                         <div class="container-fluid">
                                             <div
                                                 class="row p-2 d-flex flex-row justify-content-center align-items-center">
@@ -171,8 +238,8 @@
                                     </div>
 
                                     <div class="competenceCard p-3 d-flex flex-column align-items-center">
-                                        <h3 class="text-uppercase lineHeightPlus mb-4"><i
-                                                class="fa-solid fa-thumbs-up fa-1x"></i>Atouts</h3>
+                                        <h3 class="text-uppercase letterSpacingPlus mb-4"><i
+                                                class="fa-solid fa-thumbs-up"></i>Atouts</h3>
                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate fugiat
                                             quod,
                                             cum
@@ -191,8 +258,8 @@
                             <div class="row my-4 justify-content-evenly">
                                 <div class="col-11 col-md-5 mb-4 mb-md-0">
                                     <div class="competenceCard p-3 d-flex flex-column align-items-center">
-                                        <h3 class="text-uppercase lineHeightPlus mb-4"><i
-                                                class="fa-solid fa-briefcase fa-1x"></i>Expériences
+                                        <h3 class="text-uppercase letterSpacingPlus mb-4"><i
+                                                class="fa-solid fa-briefcase"></i>Expériences
                                         </h3>
                                         <div class="timeline py-2 px-auto">
                                             <div class="timelineOuter">
@@ -315,7 +382,8 @@
                                                                 <div class="modal-content">
                                                                     <div class="modal-header">
                                                                         <h5 class="modal-title"
-                                                                            id="modalvolontaireLabel">Volontaire
+                                                                            id="modalvolontaireLabel">
+                                                                            Volontaire
                                                                         </h5>
                                                                         <button type="button" class="btn-close"
                                                                             data-bs-dismiss="modal"
@@ -381,10 +449,10 @@
                                     </div>
                                 </div>
 
-                                <div class="col-11 col-md-5">
+                                <div class="col-11 col-md-5 mb-4 mb-md-0">
                                     <div class="competenceCard p-3 d-flex flex-column align-items-center">
-                                        <h3 class="text-uppercase lineHeightPlus mb-4"><i
-                                                class="fa-solid fa-user-graduate fa-1x"></i>Formations</h3>
+                                        <h3 class="text-uppercase letterSpacingPlus mb-4"><i
+                                                class="fa-solid fa-user-graduate"></i>Formations</h3>
                                         <div class="timeline py-2 px-auto">
                                             <div class="timelineOuter">
                                                 <div class="timelineCard">
@@ -564,7 +632,8 @@
                                                                     </div>
                                                                     <div class="modal-body">
                                                                         <ul>
-                                                                            <li>Droit civil (général, des obligations, des contrats spéciaux, des sûretés)</li>
+                                                                            <li>Droit civil (général, des obligations,
+                                                                                des contrats spéciaux, des sûretés)</li>
                                                                             <li>Droit constitutionnel</li>
                                                                             <li>Droit administratif</li>
                                                                             <li>Droit de la propriété publique</li>
@@ -614,12 +683,13 @@
         </div>
 
 
-        <!-- PAGE DERNIERS PROJETS -->
+        <!-- PAGE PORTFOLIO -->
 
-        <div id="portfolio" class="container-fluid py-5">
+        <div id="portfolio" class="py-4 bgGrey">
 
-            <div class="mb-4 d-flex flex-column justify-content-center">
-                <h2 class="text-uppercase lineHeightPlus txtWhite mx-auto">Mes <span class="highlightRed">derniers
+            <div class="mb-4 pt-3 d-flex flex-column justify-content-center">
+                <h2 class="text-uppercase letterSpacingPlus txtWhite mx-auto pt-4">Mes <span
+                        class="highlightRed">derniers
                         projets</span></h2>
             </div>
 
@@ -676,7 +746,8 @@
                                 </button>
                                 <div class="collapse" id="collapseProjetCv">
                                     <div class="card card-body">
-                                        <p class="mb-0">Ce n'est pas la peine d'aller plus loin. Juste plus haut, vous êtes déjà dessus.</p>
+                                        <p class="mb-0">Ce n'est pas la peine d'aller plus loin. Juste plus haut, vous
+                                            êtes déjà dessus.</p>
                                     </div>
                                 </div>
                             </div>
@@ -724,7 +795,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p class="card-text mt-2 txtWhite">J'ai réalisé ce projet en autodidacte pour m'entrainer avant
+                                <p class="card-text mt-2 txtWhite">J'ai réalisé ce projet en autodidacte pour
+                                    m'entrainer avant
                                     que commence ma formation.</p>
                                 <a href="https://legeckoblanc.zd.lu/index.html" class="btn">Voir le projet</a>
                             </div>
@@ -736,10 +808,10 @@
 
         <!-- PAGE DE CONTACT -->
 
-        <div id="contact" class="container-fluid py-5">
+        <div id="contact" class="py-4">
 
-            <div class="mb-4 d-flex flex-column justify-content-center">
-                <h2 class="text-uppercase lineHeightPlus txtWhite mx-auto">Me <span
+            <div class="mb-4 pt-3 d-flex flex-column justify-content-center">
+                <h2 class="text-uppercase letterSpacingPlus txtWhite mx-auto pt-4">Me <span
                         class="highlightRed">contacter</span></h2>
             </div>
 
@@ -748,7 +820,7 @@
                     <div
                         class="col-12 order-md-last col-md-6 py-4 d-flex flex-column justify-content-center text-center">
                         <div>
-                            <h2 class="text-uppercase lineHeightPlus"><span class="txtWhite">Solène</span> <span
+                            <h2 class="text-uppercase letterSpacingPlus"><span class="txtWhite">Solène</span> <span
                                     class="txtRed">Brunel</span></h2>
                             <h3 class="text-uppercase txtWhite"><span class="highlightRed">Développeur Web Junior</span>
                             </h3>
@@ -849,7 +921,7 @@
                     <p class="mb-0">© 2022 By Solène Brunel with Bootstrap</p>
                 </div>
 
-                <div class="col-12 col-md-6 pt-4 pb-4 d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-6 py-2 d-flex align-items-center justify-content-center">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#creditsModal">
                         Crédits
@@ -879,7 +951,8 @@
             </div>
         </div>
     </footer>
-    </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
