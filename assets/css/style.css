@@ -1,4 +1,6 @@
-/* REGLES GENERALES */
+/* ===================================================================================================
+REGLES GENERALES
+====================================================================================================*/
 
 body {
   background: #0A100D;
@@ -49,17 +51,9 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/*MENU DE NAVIGATION */
+/* ===================================================================================================
+MENU DE NAVIGATION
+====================================================================================================*/
 
 .mainNav {
   background-color: #212322;
@@ -89,50 +83,62 @@ body {
 }
 
 
+/* ===================================================================================================
+PAGE D'ACCUEIL 
+====================================================================================================*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* PAGE D'ACCUEIL */
 .homeRow {
-  height: calc(100vh - 3.5rem);
-}
-
-.homeInfos .d-md-flex {
-  height:100% /* hauteur définie pour que le d-flex puisse s'appliquer puisque c'est la div parent "homeInfos" qui a une hauteur*/
+  min-height: calc(100vh - 3.5rem);
 }
 
 .homeInfos i {
   margin-left: 1rem;
 }
 
+/* version téléphone */
+
+.homeBorder {
+  width: 80%;
+  margin: 0px auto 0px auto;
+  border-bottom :#fff 3px solid;
+}
+
+.homePresentation {
+  padding-top: 30%;
+}
+
+.homeInfos {
+  padding-bottom: 30%;
+}
+
+.homePresentation {
+  position: relative;
+}
+
+.homePresentation img {
+  position: absolute;
+  border-radius: 999px;
+  border:#212322 solid 25px;
+  height: auto;
+  max-width: 60%;
+  /* les trois suivants permettent de centrer la photo */
+  right: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 0rem;
+}
+/* version ordinateur */
+
+.homeInfos .d-md-flex {
+  height:100% /* hauteur définie pour que le d-flex puisse s'appliquer puisque c'est la div parent "homeInfos" qui a une hauteur*/
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* PAGE COMPETENCES */
-/* general */
+/* ===================================================================================================
+COMPETENCES
+====================================================================================================*/
 .competenceCard {
   background: #fff;
 }
@@ -282,22 +288,9 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* PAGE PORTFOLIO */
+/* ===================================================================================================
+PORTFOLIO
+====================================================================================================*/
 
 .portfolioCard {
   border-radius: 0px;
@@ -326,22 +319,9 @@ border-radius: 0px;
   width: 3rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* PAGE DE CONTACT */
+/* ===================================================================================================
+CONTACT
+====================================================================================================*/
 
 #message {
   height: 150px;
