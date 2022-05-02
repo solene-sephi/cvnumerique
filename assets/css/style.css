@@ -46,7 +46,7 @@ body {
 }
 
 .btn:hover {
-  background:#902923;
+  background: #902923;
   color: #fff;
 }
 
@@ -60,7 +60,7 @@ MENU DE NAVIGATION
 }
 
 .mainNav {
-  border-bottom:#fff 2px solid;
+  border-bottom: #fff 2px solid;
 }
 
 .mainNav-link {
@@ -87,24 +87,28 @@ MENU DE NAVIGATION
 PAGE D'ACCUEIL 
 ====================================================================================================*/
 
-.homeRow {
-  min-height: calc(100vh - 3.5rem);
-}
-
 .homeInfos i {
   margin-left: 1rem;
 }
 
-/* version téléphone */
+/* version téléphone et tablettes */
+.homeName {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 .homeBorder {
   width: 80%;
   margin: 0px auto 0px auto;
-  border-bottom :#fff 3px solid;
+  border-bottom: #fff 3px solid;
 }
 
 .homePresentation {
-  padding-top: 30%;
+  padding-top: 33%;
+}
+
+.homePresentation p {
+  padding: 0rem 1.5rem 0.5rem 1.5rem;
 }
 
 .homeInfos {
@@ -118,20 +122,61 @@ PAGE D'ACCUEIL
 .homePresentation img {
   position: absolute;
   border-radius: 999px;
-  border:#212322 solid 25px;
+  border: #212322 solid 25px;
   height: auto;
   max-width: 60%;
   /* les trois suivants permettent de centrer la photo */
-  right: 50%; 
+  right: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   top: 0rem;
 }
+
 /* version ordinateur */
 
-.homeInfos .d-md-flex {
-  height:100% /* hauteur définie pour que le d-flex puisse s'appliquer puisque c'est la div parent "homeInfos" qui a une hauteur*/
+@media screen and (min-width:768px) {
+  .homeRow {
+    min-height: calc(100vh - 3.5rem);
+  }
+
+  .homeName {
+    padding: unset;
+  }
+
+  .homePresentation {
+    padding: unset;
+  }
+
+  .homePresentation p {
+    padding: 4rem 30% 4rem 15%;
+    margin-bottom: 0rem;
+  }
+
+  .homePresentation img {
+    right: auto;
+    left: 100%;
+    bottom: auto;
+    top: 100%;
+    z-index: 1;
+  }
+
+  .homeInfos {
+    padding: unset;
+  }
+
+  .homeInfos .container-fluid{
+    padding: 4rem 30%;
+  }
+
+  .homeDeco {
+    background-image:url(../img/codeDecoration.png);
+    position: left;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+  }
 }
+
+
 
 
 
@@ -159,7 +204,7 @@ COMPETENCES
 }
 
 .competenceCard .btn:hover {
-  background:#0A100D;
+  background: #0A100D;
   color: #fff;
 }
 
@@ -218,10 +263,11 @@ COMPETENCES
     bottom: -45px;
     transform: skewX(40deg);
   }
-  
+
   button.navBorder {
     position: relative;
   }
+
   button.navBorder::before {
     content: "";
     display: block;
@@ -234,7 +280,7 @@ COMPETENCES
     height: 68%;
     right: -22px;
     bottom: 7px;
-    transform: skewY(40deg); 
+    transform: skewY(40deg);
   }
 
 }
@@ -282,7 +328,7 @@ COMPETENCES
 /* modales */
 .modal-title {
   background: #0A100D;
-  text-transform: uppercase ;
+  text-transform: uppercase;
   color: #fff;
   padding: 0.5rem 1rem;
 }
@@ -300,8 +346,8 @@ PORTFOLIO
 }
 
 .portfolioCard img {
-border-radius: 0px;
-  }
+  border-radius: 0px;
+}
 
 .badge {
   background-color: #902923;
@@ -314,8 +360,7 @@ border-radius: 0px;
   width: 3rem;
 }
 
-.carousel-control-prev-icon
-.carousel-control-next-icon {
+.carousel-control-prev-icon .carousel-control-next-icon {
   width: 3rem;
 }
 
@@ -328,11 +373,11 @@ CONTACT
 }
 
 .network {
-  color: #fff ;
+  color: #fff;
 }
 
 .network:hover {
-  color:#212322;
+  color: #212322;
 }
 
 
