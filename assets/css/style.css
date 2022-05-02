@@ -1,10 +1,13 @@
 /* ===================================================================================================
 REGLES GENERALES
 ====================================================================================================*/
+@font-face {
+  font-family: "Open Sans";
+  src: url();
+}
 
 body {
   background: #0A100D;
-
 }
 
 #mainContainer {
@@ -398,7 +401,7 @@ CONTACT
 
 #contact a[href*="mailto"] {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 
