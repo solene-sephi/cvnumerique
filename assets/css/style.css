@@ -91,6 +91,21 @@ PAGE D'ACCUEIL
   margin-left: 1rem;
 }
 
+a[href*="mailto"] {
+  color: #fff;
+}
+
+a[href*="mailto"]:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.homeName h1:hover,
+.homeName h2:hover {
+  font-weight: lighter;
+}
+
+
 /* version téléphone et tablettes */
 .homeName {
   padding-top: 2rem;
@@ -175,9 +190,6 @@ PAGE D'ACCUEIL
     opacity: 0.15;
   }
 }
-
-
-
 
 
 
@@ -367,6 +379,10 @@ PORTFOLIO
 /* ===================================================================================================
 CONTACT
 ====================================================================================================*/
+.form-control,
+.form-select {
+  border-radius: 0px;
+}
 
 #message {
   height: 150px;
@@ -380,20 +396,16 @@ CONTACT
   color: #212322;
 }
 
+#contact a[href*="mailto"] {
+  color: #fff;
+  font-size: 1.5rem;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* FOOTER */
+/* ===================================================================================================
+FOOTER
+====================================================================================================*/
 
 /* pris de https://csshint.com/bootstrap-horizontal-line-examples/ */
 .hr-theme-slash-2 {
