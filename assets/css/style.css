@@ -1,11 +1,6 @@
 /* ===================================================================================================
 REGLES GENERALES
 ====================================================================================================*/
-@font-face {
-  font-family: "Open Sans";
-  src: url();
-}
-
 body {
   background: #0A100D;
 }
@@ -213,6 +208,16 @@ COMPETENCES
   margin-right: 0.5em;
 }
 
+.competenceCard .iconLanguage {
+  height: 3rem;
+  width: auto;
+}
+
+.competenceCard .iconHobby {
+  height: 4rem;
+  width: auto;
+}
+
 .competenceCard .btn {
   background-color: #212322;
   color: #fff;
@@ -347,6 +352,8 @@ COMPETENCES
   color: #fff;
   padding: 0.5rem 1rem;
 }
+
+
 
 
 /* ===================================================================================================
