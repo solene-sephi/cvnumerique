@@ -58,7 +58,7 @@ MENU DE NAVIGATION
 }
 
 .mainNav {
-  border-bottom: #fff 2px solid;
+  border-bottom: #fff 3px solid;
 }
 
 .mainNav-link {
@@ -149,7 +149,7 @@ a[href*="mailto"]:hover {
 
 @media screen and (min-width:768px) {
   .homeRow {
-    min-height: calc(100vh - 3.5rem);
+    min-height: calc(100vh);
   }
 
   .homeName {
