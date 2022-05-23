@@ -247,7 +247,7 @@ COMPETENCES
   border: #fff solid 2px;
 }
 
-/* effet de perspective - pris et personnalisé grâce à https://8biticon.com/minting-guide */
+/* effet de perspective */
 @media screen and (min-width:768px) {
   .tabBorder {
     position: relative;
@@ -305,7 +305,7 @@ COMPETENCES
 
 }
 
-/* timeline - pris et personnlisé grâce à https://codepen.io/alvarotrigo/pen/ZEXzOWQ */
+/* timeline */
 .timelineOuter {
   border-left: 3px solid #212322;
 }
@@ -375,16 +375,6 @@ PORTFOLIO
   background-color: #902923;
 }
 
-
-.carousel-control-prev,
-.carousel-control-next {
-  opacity: 1;
-  width: 3rem;
-}
-
-.carousel-control-prev-icon .carousel-control-next-icon {
-  width: 3rem;
-}
 
 /* ===================================================================================================
 CONTACT
